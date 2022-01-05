@@ -1,0 +1,59 @@
+body{
+ margin: 0;
+ padding: 0;
+/* font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; */
+}
+
+section img{
+ width: 100%;
+ height: 800px;
+}
+section .hero-part{
+ position: relative;
+ 
+}
+
+section div .hero-title-secound{
+ font-size: 40px;
+ width: 80%;
+ color: white;
+ text-align: center;
+ position:absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ font-family: 'Roboto', sans-serif;
+}
+
+.hero-title-secound .btn{
+ background-color: tomato;
+ margin-top: 100px;
+ padding: 10px 30px;
+ color: white;
+ border-radius: 8px;
+}
+
+.btn:hover{
+ background-color: teal;
+ color: white;
+ font-weight: 700;
+ transition: 0.4s ease;
+}
+
+.hero-title-secound a{
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.hero-title-secound h2{
+ font-size: 40px;
+}
+
+.hero-title-secound span{
+ color: yellow;
+}
+
+
+
