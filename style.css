@@ -6,6 +6,8 @@ font-family: 'Poppins', sans-serif;
 font-family: 'Roboto', sans-serif; */
 }
 
+
+/* <!-- Hero Section --> */
 section img{
  width: 100%;
  height: 800px;
@@ -56,4 +58,92 @@ section div .hero-title-secound{
 }
 
 
+/* Faith Section */
 
+.faith-section{
+  padding: 5%;
+  margin-top: -10px;
+}
+.faith-title{
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+.faith-stuff{
+  display: flex;
+  margin: 0px auto;
+  width: 80%;
+  padding: 4%;
+  
+}
+
+section .faith-items{
+  text-align: center;
+  margin-left: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+  cursor: pointer;
+ transition: transform 0.5s;
+}
+
+section .faith-items:hover{
+  transform: translateY(-10px);
+}
+
+.color-items{
+  color: tomato;
+}
+
+/* Location Part Starts Here */
+.location-stuff{
+  display: flex;
+  background-color: tomato;
+  color: white;
+  width: 100%;
+  margin-bottom: 100px;
+
+}
+
+.location-items{
+  margin: 0px auto;
+  padding: 1%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.location-items h3{
+  margin-top: -20px;
+  margin-left:-10px;
+  font-size: 30px;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.location-items h5{
+  font-size: 16px;
+}
+
+.location-btn a{
+ text-decoration: none;
+ color: white;
+ font-weight: 700;
+ background-color: teal;
+ padding: 15px 30px;
+ border-radius: 8px;
+}
+
+
+.location-btn{
+  margin-top: 55px;
+}
+
+.location-icon{
+  position: relative;
+  top:45px;
+  left: -25px;
+}
+
+
+.loc-midel{
+ line-height:10px;
+ margin-top: 30px;
+}
